@@ -1,0 +1,25 @@
+// Visual Micro is in vMicro>General>Tutorial Mode
+//
+
+// The setup() function runs once each time the micro-controller starts
+
+void setup()
+{
+	/*
+	The DDxn bit in the DDRx Register selects the direction of this pin. If DDxn is written logic one, Pxn is configured
+	as an output pin. If DDxn is written logic zero, Pxn is configured as an input pin.
+	*/
+	DDRB |= 1 << DDB4; // Set port 10 as Output (1)
+}
+
+// Add the main program code into the continuous loop() function
+void loop()
+{
+
+	/*
+	If PORTxn is written logic one when the pin is configured as an output pin, the port pin is driven high (one). If
+	PORTxn is written logic zero when the pin is configured as an output pin, the port pin is driven low (zero).
+	*/
+	PORTB |= 1 << PB4;
+
+}
