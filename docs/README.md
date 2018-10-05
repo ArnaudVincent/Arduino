@@ -1,3 +1,7 @@
+---
+layout: default
+title: Index
+---
 # Arduino
 Repository about Arduino initiation
 
