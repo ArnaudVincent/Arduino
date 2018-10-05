@@ -4,7 +4,10 @@ title: Index
 ---
 # Index page
 
-This page tells you a little bit about me.
+{% for docu in collection.docu %}
+    {{ docu.title }}
+{% endfor %}
+
 
 # Header 1
 ## Header 2
