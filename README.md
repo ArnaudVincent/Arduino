@@ -1,5 +1,2 @@
-# Arduino
-Repository about Arduino initiation
-
-Repository containing code for Arduino plateform and for initiation.
-Code is used for blog 'JeCommenceArduino.wordpress.com' too.
+# Je Commence Arduino
+Initiation à la plateforme Arduino.
