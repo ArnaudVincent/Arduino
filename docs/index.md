@@ -4,8 +4,8 @@ title: Index
 ---
 # Index page
 Pages : {{paginator.total_pages}}
-{% for docu in collection.docu %}
-    {{ docu.title }}
+{% for docu in sites.docs %}
+    {{ docu.title }};{{ docu.url }}
 {% endfor %}
 
 

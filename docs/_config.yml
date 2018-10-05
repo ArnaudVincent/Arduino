@@ -2,4 +2,7 @@ theme: jekyll-theme-architect
 title: Je commence Arduino
 description: > # this means to ignore newlines until "baseurl:"
   Initiation à la plateforme Arduino...
-paginate_path: "/page:num.html"
+collections:
+  docs:
+    output: true
+    path: ""
