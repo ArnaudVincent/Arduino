@@ -3,7 +3,7 @@ layout: default
 title: Index
 ---
 # Index page
-{{paginator.total_pages}}
+Pages : {{paginator.total_pages}}
 {% for docu in collection.docu %}
     {{ docu.title }}
 {% endfor %}
