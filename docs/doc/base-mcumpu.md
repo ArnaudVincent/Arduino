@@ -1,9 +1,10 @@
 ---
 layout: default
-title: L'Electricité
+title: MCU vs MPU ?
 category: Base
+permalink: /base/
 ---
-# L'Electricité
+# MCU vs MPU ?
 
 This page tells you a little bit about me.
 
