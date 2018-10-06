@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Page1
-collection: docu
+category: cat1
 ---
 # Page 1 page
 
