@@ -21,7 +21,7 @@ title: Index
 <ul>
     {% for category in site.data.categories %}
     <li>
-        <a href="/{{ category.file | slugify }}">
+        <a href="/Arduino/{{ category.file | slugify }}">
             {{ category.name }}
         </a>
     </li>
