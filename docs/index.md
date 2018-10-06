@@ -18,6 +18,18 @@ title: Index
 {% endfor %}
 
 
+<ul>
+    {% for category in site.data.categories %}
+    <li>
+        <a href="/category/{{ category.file | slugify }}">
+            {{ category.name }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+
+
+
 
 # Header 1
 ## Header 2
