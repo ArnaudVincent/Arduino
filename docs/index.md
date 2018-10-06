@@ -3,9 +3,9 @@ layout: default
 title: Index
 ---
 # Index page
-Pages2 : {{paginator.total_pages}}
-{% for docu in sites.docs %}
-    {{ docu.title }};{{ docu.url }}
+
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
 {% endfor %}
 
 
