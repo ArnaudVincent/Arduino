@@ -1,5 +1,5 @@
 - name: Electricite
-  file: /base/electricite
+  file: /base/elect
 
 - name: MCU vs MPU
   file: /base/mcu
