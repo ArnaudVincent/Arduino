@@ -2,7 +2,7 @@
 layout: default
 title: MCU vs MPU ?
 category: Base
-permalink: /doc/base/
+permalink: /doc/base/mcu
 ---
 # MCU vs MPU ?
 
