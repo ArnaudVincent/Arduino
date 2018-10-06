@@ -1,5 +1,5 @@
 - name: Electricite
-  file: //_base//electricite
+  file: \base\electricite
 
 - name: MCU vs MPU
-  file: "/_base/mcumpu"
+  file: /base/mcumpu
