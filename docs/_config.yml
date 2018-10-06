@@ -3,6 +3,12 @@ title: Je commence Arduino
 description: > # this means to ignore newlines until "baseurl:"
   Initiation à la plateforme Arduino...
 collections:
-  docs:
-    output: true
-    path: ""
+  category:
+    output: true # générer la page HTML
+    permalink: /page:num.html
+    # exemple -> /category/informatique/index.html
+
+defaults:
+  - scope:
+      path: ""
+      type: category
