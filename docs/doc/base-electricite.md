@@ -2,7 +2,7 @@
 layout: default
 title: L'Electricité
 category: Base
-permalink: /base/
+permalink: /doc/base/
 ---
 # L'Electricité
 
