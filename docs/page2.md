@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: post
 title: Page 2
-collection: docu
 ---
 # Page 2 page
 
