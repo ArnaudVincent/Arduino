@@ -2,4 +2,4 @@
   file: \base\electricite
 
 - name: MCU vs MPU
-  file: /base/mcumpu
+  file: /bases/mcumpu
