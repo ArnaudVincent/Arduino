@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Page 2
+category: cat2
 ---
 # Page 2 page
 
