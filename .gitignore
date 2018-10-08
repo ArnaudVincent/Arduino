@@ -1,6 +1,6 @@
-
 Starter/.vs/Starter/v14/.atsuo
 Starter/Release/Starter.elf
 *.hex
 *.elf
 *.elf
+*.o
